@@ -1,0 +1,35 @@
+#gameboard{
+    position: relative;
+    height: 50%;
+    width:80%;
+    border-bottom: 2px solid black;
+    margin:20% 10% 10% 10%;
+
+}
+#temp{
+    width:10%;
+    top: 30%;
+    z-index:-1;
+}
+#trex{
+    position: absolute;
+    width:90px;
+    height:90px;
+    top: 35%;
+    left:50px;
+    z-index:-1;
+}
+#transparent-img{
+    position: absolute;
+    right:0px;
+    width:50px;
+    top:20px;
+    height:100px;
+    background: url('images/obstacles.png');
+}
+#score-board{
+    position: absolute;
+    top: 5%;
+    right:10%;
+    font-size: 20px;
+}
